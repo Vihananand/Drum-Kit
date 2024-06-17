@@ -60,10 +60,6 @@ button{
   background-image: url('./Assets/Images/kick.png');
 }
 
-.set {
-  margin: 10% auto;
-}
-
 .game-over {
   background-color: red;
   opacity: 0.8;
@@ -79,6 +75,7 @@ button{
 }
 
 .set{
+  margin: 10% auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,4 +96,15 @@ button{
   background-color: white;
   width: 150px;
   height: 150px;
+}
+
+@media (max-width : 1280px){
+  .set{
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 6em;
 }
